@@ -7,11 +7,11 @@ This is the official repository for the paper:
 >
 > <sup>*</sup>Equal Contribution, <sup>†</sup>Project Leader, <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2709.svg" alt="email" width="16"/>Corresponding author.
 >
-> ### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/arxiv.svg" alt="arXiv" width="20"/> [Paper](https://arxiv.org/abs/24XX.XXXXX) &nbsp; | &nbsp; <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/internetarchive.svg" alt="Website" width="20"/> [Website](https://example.com) &nbsp; | &nbsp; <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace" width="20"/> [Data](https://huggingface.co/datasets/YourOrg/InsScene-15K) 
+> ### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/arxiv.svg" alt="arXiv" width="20"/> [Paper](https://arxiv.org/abs/2510.22706) &nbsp; | &nbsp; <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/internetarchive.svg" alt="Website" width="20"/> [Website](https://github.com/lifuguan) &nbsp; | &nbsp; <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace" width="20"/> [Data](https://huggingface.co/datasets/lifuguan/InsScene-15K) 
 
 
 <div align="center">
-  <video src="./assets/demo_video.mp4" alt="IGGT Demo" width="800"/>
+  <img src="./assets/demo_video.gif" alt="IGGT Demo" width="800"/>
 </div>
 
 ## 🔍 Overview

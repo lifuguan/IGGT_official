@@ -31,16 +31,6 @@ IGGT introduces a novel transformer-based architecture for semantic 3D reconstru
 - [ ] Release codebase
 - [ ] Release pretrained models
 
-## ✏️ Citation
-If you find our code or paper helpful, please consider starring ⭐ us and citing:
-```bibtex
-@article{li2025iggt,
-  title={{IGGT}: {INSTANCE-GROUNDED} {GEOMETRY} {TRANSFORMER} for {SEMANTIC} {3D} {RECONSTRUCTION}},
-  author={Li, Hao and Zou, Zhengyu and Liu, Fangfu and Zhang, Xuanyang and Hong, Fangzhou and Cao, Yukang and Lan, Yushi and Zhang, Manyuan and Yu, Gang and Zhang, Dingwen and Liu, Ziwei},
-  journal={arXiv preprint arXiv:24XX.XXXXX},
-  year={2025}
-}
-```
 
 ## 📄 License
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.

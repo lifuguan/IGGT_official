@@ -1,4 +1,4 @@
-# <img src="./assets/iggt_logo.png" alt="logo" width="30"/> IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction
+# <img src="./images/iggt_logo.png" alt="logo" width="30"/> IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction
 
 This is the official repository for the paper:
 > **IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction** 
@@ -10,9 +10,10 @@ This is the official repository for the paper:
 > ### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/arxiv.svg" alt="arXiv" width="20"/> [Paper](https://arxiv.org/abs/2510.22706) &nbsp; | &nbsp; <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/internetarchive.svg" alt="Website" width="20"/> [Website](https://github.com/lifuguan) &nbsp; | &nbsp; <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace" width="20"/> [Data](https://huggingface.co/datasets/lifuguan/InsScene-15K) 
 
 
-<div align="center">
-  <img src="./assets/demo_video.gif" alt="IGGT Demo" width="800"/>
-</div>
+<video autoplay loop muted playsinline style="max-width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+    <source src="images/demo_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ## 🔍 Overview
 IGGT introduces a novel transformer-based architecture for semantic 3D reconstruction that grounds instance-level understanding in geometric representations. Our method achieves state-of-the-art performance on multiple benchmarks while maintaining computational efficiency.

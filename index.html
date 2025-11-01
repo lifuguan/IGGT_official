@@ -111,6 +111,48 @@
             color: #718096;
         }
 
+        .institution-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: 30px auto;
+            flex-wrap: wrap;
+            max-width: 1000px;
+        }
+
+        .institution-logos img {
+            width: auto;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            filter: grayscale(30%);
+        }
+
+        .institution-logos img:hover {
+            transform: scale(1.1);
+            filter: grayscale(0%);
+        }
+
+        .institution-logos .logo-nwpu {
+            height: 70px;
+        }
+
+        .institution-logos .logo-ntu {
+            height: 70px;
+        }
+
+        .institution-logos .logo-stepfun {
+            height: 75px;
+        }
+
+        .institution-logos .logo-thu {
+            height: 70px;
+        }
+
+        .institution-logos .logo-cuhk {
+            height: 70px;
+        }
+
         .keywords {
             display: flex;
             justify-content: center;
@@ -384,6 +426,14 @@
                 <sup>3</sup>StepFun, Inc. &nbsp;&nbsp;
                 <sup>4</sup>THU &nbsp;&nbsp;
                 <sup>5</sup>MMLab, CUHK
+            </div>
+
+            <div class="institution-logos">
+                <img src="images/nwpu_logo.png" alt="西北工业大学" title="西北工业大学 NWPU" class="logo-nwpu">
+                <img src="images/NTU_Logo.jpg" alt="南洋理工大学" title="南洋理工大学 NTU" class="logo-ntu">
+                <img src="images/stepfun_logo.png" alt="阶跃星辰" title="阶跃星辰 StepFun" class="logo-stepfun">
+                <img src="images/thu_logo.png" alt="清华大学" title="清华大学 THU" class="logo-thu">
+                <img src="images/cuhk_logo.png" alt="香港中文大学" title="香港中文大学 CUHK" class="logo-cuhk">
             </div>
 
             <div class="keywords">

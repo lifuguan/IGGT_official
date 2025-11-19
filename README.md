@@ -60,10 +60,11 @@ We provide `demo.py` to demonstrate IGGT's capabilities in 3D scene reconstructi
 
 #### 1. Data Organization
 
-Prepare your inference data with the following structure:
+We provide sample scenes in the `iggt_demo` directory (e.g., `iggt_demo/demo1` to `iggt_demo/demo9`).
+For your own data, please organize it with the following structure:
 
 ```text
-target_dir/
+scene_name/
 └── images/           # Input images (sorted by filename)
     ├── 00000.jpg
     ├── 00001.jpg
@@ -72,7 +73,7 @@ target_dir/
 
 (Optional) For evaluation against ground truth:
 ```text
-target_dir/
+scene_name/
 ├── depth/            # Ground truth depth maps
 └── cam/              # Camera parameters (.npz files)
 ```
@@ -99,6 +100,14 @@ The script will generate:
 - **3D Visualizations**: `.glb` files for RGB, Mask, and PCA features.
 - **Depth Maps**: Visualizations with various colormaps in `pred_depths/`.
 - **Segmentation**: DBSCAN and PCA masks in `dbscan_masks/` and `colored_pca/`.
+
+<p align="center">
+  <img src="./assets/iggt_demo.png" alt="IGGT Demo Example" width="80%">
+</p>
+
+**Figure:** Example 3D scene segmentation and reconstruction by IGGT.
+
+
 
 
 ## ✏️ Citation

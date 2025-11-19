@@ -662,8 +662,8 @@ def main():
     MODEL_PATH = "model path"
 
     # Input/Output paths
-    TARGET_DIR = "./iggt_demo/demo13"
-    SAVE_DIR = "./iggt_demo/demo13"
+    TARGET_DIR = "./iggt_demo/demo9"
+    SAVE_DIR = "./iggt_demo/demo9"
     try:
         # Initialize processor
         processor = IGGTProcessor(MODEL_PATH)

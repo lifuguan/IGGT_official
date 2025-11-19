@@ -156,6 +156,7 @@ skyseg.onnx
 output
 
 *.glb
+**/.DS_store
 
 wandb
 results/

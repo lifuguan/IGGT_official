@@ -31,7 +31,7 @@ IGGT introduces a novel transformer-based architecture for semantic 3D reconstru
 - [] Release codebase
   - [x] Release model code
   - [] Release downstream task scripts
-- [] Release pretrained models
+- [x] Release pretrained models
 
 
 ## 🚀 Quick Start

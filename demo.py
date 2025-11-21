@@ -60,24 +60,27 @@ DEFAULT_IMAGE_SIZE = (504, 336)
 DEFAULT_CONF_THRESHOLD = 0.3
 
 # Clustering parameters
+#####  Small ######
 # CLUSTERING_CONFIG = {
 #     'eps': 0.005,
 #     'min_samples': 50,
 #     'min_cluster_size': 500,
 #     'knn_k': 20
 # }
-CLUSTERING_CONFIG = {
-    'eps': 0.01,
-    'min_samples': 100,
-    'min_cluster_size': 500,
-    'knn_k': 20
-}
+#####  Medium ######
 # CLUSTERING_CONFIG = {
-#     'eps': 0.06,
+#     'eps': 0.01,
 #     'min_samples': 100,
 #     'min_cluster_size': 500,
 #     'knn_k': 20
 # }
+#####  Large ######
+CLUSTERING_CONFIG = {
+    'eps': 0.06,
+    'min_samples': 100,
+    'min_cluster_size': 500,
+    'knn_k': 20
+}
 
 class IGGTProcessor:
     """
@@ -380,8 +383,8 @@ class IGGTProcessor:
         # Perform DBSCAN clustering
         logger.info("Performing DBSCAN clustering...")
         dbscan_masks = cluster_features_to_masks_mv(
-            # spatial_knn_part_features,
-            part_feature,
+            spatial_knn_part_features,
+            # part_feature,
             method="dbscan",
             eps=CLUSTERING_CONFIG['eps'],
             min_samples=CLUSTERING_CONFIG['min_samples'],
